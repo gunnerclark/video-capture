@@ -1,6 +1,16 @@
 .Dock {
-    height: 25vh;
+    min-height: 25vh;
     width: 100vw;
     background-color: rgb(76, 247, 190);
     color: rgb(255, 252, 248);
+    box-sizing: border-box;
+    display: inline-flex;
+}
+
+.Dock > * {
+    border: 1px solid red;
+    min-width: 15%;
+    width: 25%; 
+    overflow: auto;
+    resize: horizontal;
 }

@@ -8,10 +8,8 @@ import Dock from './components/Dock';
 function App() {
   return (
     <div className="App">
-      <body>
-        <Viewer />
-        <Dock />
-      </body>
+      <Viewer />
+      <Dock />
     </div>
   );
 }
