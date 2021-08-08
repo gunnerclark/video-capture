@@ -6,7 +6,12 @@ class Viewer extends Component {
     render() {
         return (
             <div className="Viewer">
-                Viewer
+                <div className="container">
+                    canvas container
+                    <div className="canvas">
+                        canvas element
+                    </div>
+                </div>
             </div>
         )
     }

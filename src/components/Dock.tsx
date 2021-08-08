@@ -2,8 +2,8 @@ import React from 'react'
 import '../styling/Dock.css';
 import { Component } from 'react';
 import Scenes from './dock/Scenes';
-import VideoSources from './dock/VideoSources';
-import AudioSources from './dock/AudioSources';
+import Sources from './dock/Sources';
+import Mixer from './dock/Mixer';
 import Buttons from './dock/Buttons';
 
 class Dock extends Component {
@@ -13,10 +13,9 @@ class Dock extends Component {
     render() {
         return (
             <div className="Dock">
-                <button onClick={this.handleClick}>test</button>
                 <Scenes />
-                <VideoSources />
-                <AudioSources />
+                <Sources />
+                <Mixer />
                 <Buttons />
             </div>
         )

@@ -1,14 +1,14 @@
 import React from 'react'
 import { Component } from 'react';
 
-class Scenes extends Component {
+class VideoSources extends Component {
     render() {
         return (
-            <div className="Scenes">
+            <div className="Sources">
                 <div className="container">
-                    scenes title
+                    sources title
                     <div className="list">
-                        list of scenes
+                        list of sources
                     </div>
                 </div>
             </div>
@@ -16,4 +16,4 @@ class Scenes extends Component {
     }
 }
 
-export default Scenes;
+export default VideoSources;

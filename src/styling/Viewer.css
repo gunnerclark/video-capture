@@ -1,6 +1,12 @@
 .Viewer {
-    height: 75vh;
+    height: 65vh;
     width: 100vw;
     background-color: bisque;
     color: rgb(42, 221, 161);
+}
+.Viewer .container {
+    background: purple;
+}
+.Viewer .canvas {
+    background: black;
 }
